@@ -12,5 +12,4 @@ router.post('/routerPost', (req, res) => {
         receivedData: data
     });
 });
-
 module.exports = router;
