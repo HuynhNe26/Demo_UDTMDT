@@ -7,7 +7,7 @@ const routerGet = require('./routes/router');
 
 app.use('/', routerGet);
 
-// Khởi động server
+
 const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server đang chạy tại http://localhost:${PORT}`);
